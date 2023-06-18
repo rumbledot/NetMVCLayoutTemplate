@@ -1,0 +1,36 @@
+﻿<div class="sidebar">
+    <a class="sidebar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+        <span>LayoutTemplate</span>
+    </a>
+    <div class="sidebar-menus">
+        <ul class="parent-menu">
+            <li class="menu-item" data-hasChildren="true">
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="menu-text">Home</span>
+                </a>
+                <i class="menu-item-toggler fa-solid fa-chevron-down"></i>
+                <ul class="child-menu">
+                    <li class="menu-item">
+                        <a asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="menu-text">Home 1</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="menu-text">Home 2</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a asp-area="" asp-controller="Home" asp-action="Privacy">
+                    <i class="fa-solid fa-lock"></i>
+                    <span class="menu-text">Privacy</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
